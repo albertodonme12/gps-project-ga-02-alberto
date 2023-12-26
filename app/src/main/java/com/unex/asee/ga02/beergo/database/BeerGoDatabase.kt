@@ -4,7 +4,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.unex.asee.ga02.beergo.api.ModoPrueba
 import com.unex.asee.ga02.beergo.data.beerAchievements
 import com.unex.asee.ga02.beergo.data.dummyBeers
 import com.unex.asee.ga02.beergo.data.dummyComments
