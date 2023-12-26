@@ -1,24 +1,17 @@
 package com.unex.asee.ga02.beergo.database
+
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.unex.asee.ga02.beergo.data.beerAchievements
-import com.unex.asee.ga02.beergo.data.dummyBeers
-import com.unex.asee.ga02.beergo.data.dummyComments
-import com.unex.asee.ga02.beergo.data.dummyUsers
 import com.unex.asee.ga02.beergo.model.Achievement
 import com.unex.asee.ga02.beergo.model.Beer
-import com.unex.asee.ga02.beergo.model.User
-import com.unex.asee.ga02.beergo.model.UserFavouriteBeerCrossRef
 import com.unex.asee.ga02.beergo.model.Comment
+import com.unex.asee.ga02.beergo.model.User
 import com.unex.asee.ga02.beergo.model.UserAchievementCrossRef
 import com.unex.asee.ga02.beergo.model.UserBeerCrossRef
-
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
+import com.unex.asee.ga02.beergo.model.UserFavouriteBeerCrossRef
 
 /**
  * Room Database para la aplicación BeerGo.
