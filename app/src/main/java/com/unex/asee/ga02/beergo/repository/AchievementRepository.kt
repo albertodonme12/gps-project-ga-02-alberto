@@ -2,13 +2,10 @@ package com.unex.asee.ga02.beergo.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.map
 import androidx.lifecycle.switchMap
-import androidx.room.Query
 import com.unex.asee.ga02.beergo.database.AchievementDao
 import com.unex.asee.ga02.beergo.database.UserDao
 import com.unex.asee.ga02.beergo.model.Achievement
-import com.unex.asee.ga02.beergo.model.Beer
 import com.unex.asee.ga02.beergo.model.UserWithAchievements
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
