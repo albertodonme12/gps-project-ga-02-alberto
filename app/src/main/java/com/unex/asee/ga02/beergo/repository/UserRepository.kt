@@ -2,7 +2,6 @@ package com.unex.asee.ga02.beergo.repository
 
 import android.util.Log
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import com.unex.asee.ga02.beergo.database.UserDao
 import com.unex.asee.ga02.beergo.model.Beer
 import com.unex.asee.ga02.beergo.model.User

@@ -4,8 +4,19 @@ plugins {
     id("androidx.navigation.safeargs.kotlin")
     id("com.google.devtools.ksp")
     id("org.jetbrains.dokka")
+        id("org.sonarqube") version "4.4.1.3373"
+
+
+
 }
 
+sonar {
+    properties {
+        property("sonar.projectKey", "albertodonme12_gps-project-ga-02-alberto")
+        property("sonar.organization", "albertodonme12")
+        property("sonar.host.url", "https://sonarcloud.io")
+    }
+}
 android {
     namespace = "com.unex.asee.ga02.beergo"
     compileSdk = 34
