@@ -3,7 +3,6 @@ package com.unex.asee.ga02.beergo.model
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import androidx.room.util.TableInfo
 import java.io.Serializable
 
 /**
