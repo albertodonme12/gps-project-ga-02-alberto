@@ -86,7 +86,7 @@ class ProfileFragment : Fragment() {
         binding.idUser.text = viewModel.user?.name
     }
 
-     private suspend fun setUpStadistics() {
+     private fun setUpStadistics() {
 
         binding.logrosConseguidos.text = "Logros Conseguidos: ${
             viewModel.countUserAchievements()
